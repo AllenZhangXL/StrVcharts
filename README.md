@@ -9,21 +9,8 @@ npm install
 ```
 npm run serve
 ```
+Vue server run in http://localhost:8080
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Before run Vue Server ,  Run Backend Server first 
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
