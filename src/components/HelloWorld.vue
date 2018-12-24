@@ -114,49 +114,6 @@ export default {
     })
   }
 } 
-  //     axios.post('http://localhost:3000/audience',{
-  //       session_token:response.data.session_token,
-  //       from:"1544094587000",
-  //       to:"1545404987000"
-  //     })
-  //     .then((response)=>{
-  //     console.log(response.data);
-  //     var audienceObj = JSON.parse(JSON.stringify(response.data));
-  //     var audienceArry =[];
-  //     audienceObj.audience.forEach(e => {
-  //       audienceArry.push({
-  //         date: new Date(e[0]).toLocaleString(),
-  //         audienceNum:e[1]
-  //       });
-  //       this.chartData.rows = audienceArry;
-  //       this.audience = audienceArry;
-  //       this.chartData2.rows = audienceArry;
-  //     });
-  //  });
-  
-//     axios.post('http://localhost:3000/audience',{
-//        session_token: "149f70ce1fd82d",
-//       from:"1544094587000",
-//       to:"1545404987000"
-//     }).then((response) => {
-//       console.log(response.data);
-//       var audienceObj = JSON.parse(JSON.stringify(response.data));
-//       var audienceArry =[];
-//       audienceObj.audience.forEach(e => {
-//         audienceArry.push({
-//           date: new Date(e[0]).toLocaleString(),
-//           audienceNum:e[1]
-//         });
-//         this.chartData.rows = audienceArry;
-//         this.audience = audienceArry;
-//         this.chartData2.rows = audienceArry;
-//       });
-//    })
-//      .catch((error)=>{
-//        console.log(error);
-//      });
-//   },
-// }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
