@@ -1,4 +1,5 @@
 Email : xiaolong.zhang@supinfo.com
+I didn't change backend mock file , so you could use origin backend file.
 
 For this test , I use Vue-cli to build the project , And use axios to handle the post/get .
 
